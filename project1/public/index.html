@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div>
+    <h1>ساعات الطالب المقطوعة</h1>
+  </div>
+  <form class="form-container">
+    <div class="form-group">
+      <label for="firstname">الاسم الاول:</label>
+      <input type="text" id="firstname" name="firstname" required>
+    </div>
+    <div class="form-group">
+      <label for="lastname">الاسم الاخير:</label>
+      <input type="text" id="lastname" name="lastname" required>
+    </div>
+    <div class="form-group">
+      <label for="hours">عدد الساعات:</label>
+      <input type="number" id="hours" name="hours" min="1" max="120" required>
+    </div>
+    <div class="form-group">
+      <label for="major">التخصص:</label>
+      <select id="major" name="major" required>
+        <option value="dev">البرمجيات وقواعد البيانات</option>
+        <option value="cs">علم الحاسوب</option>
+        <option value="eng">هندسة معمارية</option>
+        <option value="graphics">تصميم الجرافيك</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <button type="submit">ارسال</button>
+    </div>
+  </form>
+  <script src="app.js"></script>
+</body>
+
+</html>
