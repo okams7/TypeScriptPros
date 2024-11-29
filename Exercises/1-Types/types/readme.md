@@ -1,4 +1,4 @@
-# قم بإنشاء برنامج TypeScript الذي يقوم بما يلي:
+# قم بإنشاء برنامج TypeScript  يقوم بما يلي:
 
 يعلن عن متغير message ويُسند إليه السلسلة النصية "Hello, TypeScript!".
 
@@ -8,4 +8,7 @@
 
 يطبع قيم message و age و isStudent على وحدة التحكم (console).
 
-
+الاخراج المتوقع:
+```
+Hello, TypeScript! 30 true
+``` 
