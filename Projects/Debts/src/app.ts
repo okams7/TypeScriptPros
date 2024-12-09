@@ -46,12 +46,10 @@ function addParagraph(text: string) {
 
 function getAmount(): number {
     let sum = 0
-    console.log("----------------")
     transactions.forEach(element => {
         console.log(element.amount)
         sum += element.amount
     });
-    console.log("----------------")
 
     return sum
 }
